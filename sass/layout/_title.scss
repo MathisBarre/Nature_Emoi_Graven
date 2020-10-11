@@ -1,0 +1,16 @@
+.title {
+  font-family: "Abril FatFace", serif;
+  font-size: 5rem;
+  position: relative;
+  line-height: 1.8;
+  margin: 0;
+  &::after {
+    content: "";
+    height: 1rem;
+    width: 4rem;
+    background-color: $color-main;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}

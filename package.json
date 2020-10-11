@@ -1,0 +1,31 @@
+{
+  "name": "challenge-graven-nature-emoi",
+  "version": "1.0.0",
+  "description": "Réalisation de l'integration proposé par le vidéaste Graven sur sa chaine youtube.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "sass --watch ./sass/main.scss ./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MathisBarre/Nature_Emoi_Graven.git"
+  },
+  "keywords": [
+    "integration",
+    "html",
+    "css",
+    "sass",
+    "BEM",
+    "challenge",
+    "graven"
+  ],
+  "author": "Mathis Barré",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MathisBarre/Nature_Emoi_Graven/issues"
+  },
+  "homepage": "https://github.com/MathisBarre/Nature_Emoi_Graven#readme",
+  "dependencies": {
+    "sass": "^1.27.0"
+  }
+}

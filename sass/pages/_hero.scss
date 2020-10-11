@@ -1,0 +1,29 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 50rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-image: url("../img/bg.jpg");
+  background-color: black;
+  background-position: center center;
+  background-size: cover;
+
+  &__title {
+    font-size: 7rem;
+    font-family: "Abril FatFace";
+    color: white;
+    margin: 0 0 0 4rem;
+    font-weight: normal;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+  }
+
+  &__scrollMessage {
+    color: white;
+    font-weight: 500;
+  }
+}
